@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FC"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product details"
+            android:textColor="#172B4D"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/WarrantyInput"
+            android:hint="Product name *"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/brand"
+            style="@style/WarrantyInput"
+            android:hint="Brand"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/category"
+            style="@style/WarrantyInput"
+            android:hint="Category"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/purchaseDate"
+            style="@style/WarrantyInput"
+            android:hint="Purchase date * (tap to select)"
+            android:clickable="true"
+            android:focusable="false" />
+
+        <EditText
+            android:id="@+id/price"
+            style="@style/WarrantyInput"
+            android:hint="Purchase price *"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/months"
+            style="@style/WarrantyInput"
+            android:hint="Warranty duration in months *"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/seller"
+            style="@style/WarrantyInput"
+            android:hint="Seller / store"
+            android:inputType="textCapWords" />
+
+        <Button
+            android:id="@+id/pickReceipt"
+            style="@style/WarrantyButton"
+            android:layout_marginTop="16dp"
+            android:text="Attach receipt image" />
+
+        <TextView
+            android:id="@+id/receiptLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="No receipt attached"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/save"
+            style="@style/WarrantyButton"
+            android:layout_marginTop="20dp"
+            android:text="Save product" />
+
+    </LinearLayout>
+</ScrollView>

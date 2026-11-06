@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FC"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warranty Vault"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#172B4D"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage your products and warranties"
+        android:textSize="13sp"
+        android:textColor="#64748B"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Summary card -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:useDefaultMargins="true">
+
+        <TextView
+            android:id="@+id/totalCount"
+            style="@style/StatCard"
+            android:text="0\nTotal products"
+            android:backgroundTint="#EFF6FF"
+            android:textColor="#1D4ED8" />
+
+        <TextView
+            android:id="@+id/activeCount"
+            style="@style/StatCard"
+            android:text="0\nActive warranties"
+            android:backgroundTint="#F0FDF4"
+            android:textColor="#15803D" />
+
+        <TextView
+            android:id="@+id/soonCount"
+            style="@style/StatCard"
+            android:text="0\nExpiring soon"
+            android:backgroundTint="#FFFBEB"
+            android:textColor="#B45309" />
+
+        <TextView
+            android:id="@+id/expiredCount"
+            style="@style/StatCard"
+            android:text="0\nExpired"
+            android:backgroundTint="#FEF2F2"
+            android:textColor="#B91C1C" />
+
+    </GridLayout>
+
+    <!-- Search -->
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/bg_search"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:drawablePadding="12dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:hint="Search products, brands or categories"
+        android:textColor="#172B4D"
+        android:textColorHint="#8492A6"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <!-- Filter buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp">
+
+        <Button
+            android:id="@+id/allButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="All Products"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2563EB"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/expiringButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:text="Expiring Soon"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2563EB"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <!-- Product list and empty state -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/productList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="24dp"
+            android:text="No products found.\nTap Add Product to get started."
+            android:textColor="#64748B"
+            android:textSize="15sp"
+            android:lineSpacingExtra="6dp" />
+
+    </FrameLayout>
+
+    <!-- Add product button -->
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:text="+ Add Product"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2563EB"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>

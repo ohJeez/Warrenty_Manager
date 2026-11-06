@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.warrantymanager.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.example.warrantymanager.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\layout_row_product.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\layout\\row_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\drawable_bg_input.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\layout_activity_form.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\drawable_bg_search.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\drawable\\bg_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-debug-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.warrantymanager.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]
